@@ -1,0 +1,30 @@
+.dark-contenedor{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    align-items: center;
+    background-color: #212529;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.dark-contenedor-icono{
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: all 0.3s ease;
+
+ 
+}
+
+.dark-contenedor-icono:hover{
+    color: #f5e1a4;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+

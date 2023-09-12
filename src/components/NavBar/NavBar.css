@@ -1,0 +1,76 @@
+.navbar{
+    background-color: #212529;
+    margin: 0;
+    height: 80px;
+
+}
+.navbar-flotante{
+    background-color: #f5e1a4;
+    height: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: sticky;
+    opacity: 0.7;
+    bottom: 20px;
+    z-index: 999;
+    margin: 0 30% 0 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+}
+
+.navbar-flotante ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-flotante ul li{
+    margin: 0 1rem;
+}
+
+.link-navbar{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+}
+
+.link-navbar:hover{
+    color: #fff;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.active{
+    color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .navbar-flotante{
+        margin: 0 10% 0 10%;
+    }
+    .link-navbar{
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+    .navbar-flotante ul li{
+        margin: 0 0.5rem;
+    }
+}
+
+
+
