@@ -39,8 +39,6 @@ const NavBar = () => {
 
       </motion.div>
 
-
-
     </div>
 
   )
