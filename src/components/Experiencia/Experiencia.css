@@ -52,7 +52,18 @@
     height: 100%;
     object-fit: cover;
 }
-
+.experiencia-laboral-contenedor-trabajo-img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
 .experiencia-laboral-contenedor-trabajo-texto {
     text-align: center;
     color: #fff;

@@ -10,7 +10,7 @@ const Experiencia = () => {
     <>
     <div className='experiencia-laboral'>
     <h2>Experiencia como <span>Desarrollador</span></h2>
-      <div className='experiencia-laboral-contenedor'>
+      <motion.div initial={{ scale:0.1}} animate={{ scale:1 }} transition={{ duration: 1.5 }} className='experiencia-laboral-contenedor'>
         <div className='experiencia-laboral-contenedor-trabajo'>
           <div className='experiencia-laboral-contenedor-trabajo-img'>
             <a href=""><img src={ar} alt="" /></a>
@@ -60,7 +60,7 @@ const Experiencia = () => {
 
           </div>
         </div>
-        </div>
+        </motion.div>
 
 
     </div>

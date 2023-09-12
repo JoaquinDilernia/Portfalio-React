@@ -6,7 +6,6 @@
     background-color: #212529;
     color: #fff;
     transition: all 0.3s ease;
-    cursor: pointer;
 }
 
 .dark-contenedor-icono{
@@ -21,6 +20,8 @@
 .dark-contenedor-icono:hover{
     color: #f5e1a4;
     transition: all 0.3s ease;
+    cursor: pointer;
+
 }
 
 
