@@ -5,15 +5,13 @@ import { BsMoonStars } from 'react-icons/bs'
 
 const Dark = () => {
 
-  return (
-    <div className='dark-contenedor'>
-        <div className='dark-contenedor-icono'>
-            <BsMoonStars />
+    return (
+        <div className='dark-contenedor'>
+            <div className='dark-contenedor-icono'>
+                <BsMoonStars />
+            </div>
         </div>
-    </div>
-
-   
-  )
+    )
 }
 
 export default Dark
