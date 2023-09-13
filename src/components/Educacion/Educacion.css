@@ -1,0 +1,8 @@
+.eduacion{
+height: calc(100vh - 80px - 90px);
+width: 100%;
+background-color: #212529;
+display: flex;
+align-items: center;
+justify-content: center;
+}

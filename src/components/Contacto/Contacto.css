@@ -35,3 +35,13 @@
     color: #fff;
     transition: all 0.3s ease;
 }
+
+.contacto-contenedor-social a:hover{
+    color: #f5e1a4;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import {  NavLink } from 'react-router-dom'
 import './NavBar.css'
-
 import { BiHomeAlt2 } from 'react-icons/bi'
 import { MdOutlineWorkHistory } from 'react-icons/md'
 import { FiBriefcase } from 'react-icons/fi'
 import { LuContact } from 'react-icons/lu'
+import { IoSchoolOutline } from 'react-icons/io5'
 import { motion } from 'framer-motion'
 
 const NavBar = () => {
@@ -27,6 +27,11 @@ const NavBar = () => {
             <li>
               <NavLink to="/proyectos" className="link-navbar" activeClassName="active" exact>
                 <FiBriefcase />
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/educacion" className="link-navbar" activeClassName="active" exact>
+                <IoSchoolOutline />
               </NavLink>
             </li>
             <li>
