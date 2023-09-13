@@ -2,7 +2,9 @@
     background-color: #212529;
     margin: 0;
     height: 80px;
-
+    position: sticky;
+    bottom: 0;
+    z-index: 9999;
 }
 .navbar-flotante{
     background-color: #f5e1a4;
@@ -10,10 +12,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    position: sticky;
     opacity: 0.7;
-    bottom: 0;
-    z-index: 9999;
     margin: 0 30% 0 30%;
     box-shadow: 0 0 10px #f5e1a4;
     border-radius: 4rem;

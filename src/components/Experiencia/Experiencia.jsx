@@ -5,6 +5,23 @@ import ar from '../../assets/ALTORANCHO.jpg'
 import bh from '../../assets/bahala.jpeg'
 import lt from '../../assets/bylett.jpg'
 
+import { FaReact } from 'react-icons/fa'
+import { FaNodeJs } from 'react-icons/fa'
+import { FaGitAlt } from 'react-icons/fa'
+import { FaHtml5 as FaHtml5F } from 'react-icons/fa'
+import { FaCss3Alt as FaCss3AltF } from 'react-icons/fa'
+import { IoLogoJavascript as IoLogoJavascriptI } from 'react-icons/io5'
+import { SiMongodb as SiMongodbS } from 'react-icons/si'
+import { SiFirebase as SiFirebaseS } from 'react-icons/si'
+import { SiPostgresql as SiPostgresqlS } from 'react-icons/si'
+import { SiStrapi as SiStrapiS } from 'react-icons/si'
+import { SiVite as SiViteS } from 'react-icons/si'
+import { SiFramer as SiFramerS } from 'react-icons/si'
+import { SiRedux as SiReduxS } from 'react-icons/si'
+import { SiTailwindcss as SiTailwindcssS } from 'react-icons/si'
+import { SiBootstrap as SiBootstrapS } from 'react-icons/si'
+
+
 const Experiencia = () => {
   return (
     <>
@@ -12,7 +29,7 @@ const Experiencia = () => {
     <h2>Experiencia como <span>Desarrollador</span></h2>
     <p>Estos son algunos de los proyectos en los que he trabajado</p>
     <p>Para ver toda la experiencia laboral visita mi perfil de <a href="">Linkedin</a></p>
-      <motion.div initial={{ scale:0.1}} animate={{ scale:1 }} transition={{ duration: 1.5 }} className='experiencia-laboral-contenedor'>
+      <motion.div initial={{ scale:0.1}} animate={{ scale:1 }} transition={{ duration: 1.2 }} className='experiencia-laboral-contenedor'>
         <div className='experiencia-laboral-contenedor-trabajo'>
           <div className='experiencia-laboral-contenedor-trabajo-img'>
             <a href=""><img src={ar} alt="" /></a>
@@ -21,7 +38,12 @@ const Experiencia = () => {
             <h3>Desarrollo web ALTORANCHO</h3>
             <h4>2022 - actual</h4>
             <p>Desarrollo a medida de ecommerce con tienda nube</p>
-            <p>HTML CSS JS</p>
+            <div className='iconos-experiencia'>
+              <FaGitAlt />
+              <FaHtml5F />
+              <FaCss3AltF />
+              <IoLogoJavascriptI />
+            </div>
             <a href="altorancho.com">ALTORANCHO</a>
           </div>
         </div>
@@ -33,7 +55,13 @@ const Experiencia = () => {
             <h3>Desarrollador Front-End BAHALA</h3>
             <h4>2023</h4>
             <p>Landing page para centro de estetica BHALA</p>
-            <p>REACT.JS VITE.JS FRAMER-MOTION</p>
+            <div className='iconos-experiencia'>
+              <FaReact />
+              <FaGitAlt />
+              <FaHtml5F />
+              <FaCss3AltF />
+              <IoLogoJavascriptI />
+            </div>
             <a href="https://bahala.com.ar/">BAHALA</a>
           </div>
         </div>
@@ -45,7 +73,15 @@ const Experiencia = () => {
             <h3>Desarrollador Fullstack LETTCOMERCIAL S.A</h3>
             <h4>2023</h4>
             <p>Desarrollo de aplicacion web para gestionar clientes y pedidos en eventos</p>
-            <p>REACT.JS VITE.JS FRAMER-MOTION STRAPI</p>
+            <div className='iconos-experiencia'>
+              <FaReact />
+              <FaNodeJs />
+              <FaGitAlt />
+              <SiStrapiS />
+              <SiViteS />
+              <SiFramerS />
+              </div>
+
             <a href="https://lettsa.com.ar/">LETTCOMERCIAL SA</a>
           </div>
         </div>
@@ -57,7 +93,13 @@ const Experiencia = () => {
             <h3>Desarrollador Fullstack LETTCOMERCIAL S.A</h3>
             <h4>2023</h4>
             <p>Desarrollo de aplicaciones web para recolectar mails de clientes en eventos</p>
-            <p>REACT.JS VITE.JS FIREBASE</p>
+            <div className='iconos-experiencia'>
+              <FaReact />
+              <FaGitAlt />
+              <SiFirebaseS />
+              <SiViteS />
+              <SiFramerS />
+              </div>
             <a href="https://lettsa.com.ar/">LETTCOMERCIAL SA</a>
 
           </div>
