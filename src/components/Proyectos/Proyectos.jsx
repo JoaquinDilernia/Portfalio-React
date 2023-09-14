@@ -23,13 +23,12 @@ import { SiBootstrap as SiBootstrapS } from 'react-icons/si'
 import { FiExternalLink } from 'react-icons/fi'
 import { BsGithub } from 'react-icons/bs'
 
-
 const Proyectos = () => {
   return (
     <div className='portafolio-personal'>
       <h2>Portafolio <span>Personal</span></h2>
       <p>Estos son algunos de los proyectos personales en los que he trabajado</p>
-      <p>Para ver todos los proyectos visita mi perfil de <a href="">Github</a></p>
+      <p>Para ver todos los proyectos visita mi perfil de <a href="https://github.com/JoaquinDilernia">Github <BsGithub /> </a></p>
       <motion.div initial={{ scale:0.1}} animate={{ scale:1 }} transition={{ duration: 1.2 }} className='contenedor-portafolio'>
         <div className='card'>
           <div className='card-header'>
