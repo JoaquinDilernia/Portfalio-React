@@ -1,9 +1,10 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.navbar-flotante{
+
+.navbar-flotante {
     background-color: #f5e1a4;
     opacity: 0.9;
     height: 60px;
@@ -11,7 +12,7 @@
     position: fixed;
     bottom: 20px;
     z-index: 9999;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin: 0 30% 0 30%;
     box-shadow: 0 0 10px #f5e1a4;
@@ -22,7 +23,7 @@
     -o-border-radius: 4rem;
 }
 
-.navbar-flotante ul{
+.navbar-flotante ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,11 +32,11 @@
     list-style: none;
 }
 
-.navbar-flotante ul li{
+.navbar-flotante ul li {
     margin: 0 1rem;
 }
 
-.link-navbar{
+.link-navbar {
     text-decoration: none;
     color: #212529;
     font-size: 1.5rem;
@@ -48,28 +49,27 @@
     -o-border-radius: 4rem;
 }
 
-.link-navbar:hover{
+.link-navbar:hover {
     color: #fff;
     box-shadow: 0 0 10px #f5e1a4;
     transition: all 0.3s ease;
 }
 
-.active{
+.active {
     color: #fff;
 }
 
-@media screen and (max-width: 768px){
-    .navbar-flotante{
+@media screen and (max-width: 768px) {
+    .navbar-flotante {
         margin: 0 10% 0 10%;
     }
-    .link-navbar{
+
+    .link-navbar {
         font-size: 1.3rem;
         padding: 0.5rem 1rem;
     }
-    .navbar-flotante ul li{
+
+    .navbar-flotante ul li {
         margin: 0 0.5rem;
     }
 }
-
-
-

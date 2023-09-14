@@ -1,4 +1,4 @@
-.dark-contenedor{
+.dark-contenedor {
     display: flex;
     justify-content: space-between;
     padding: 30px;
@@ -8,43 +8,34 @@
     transition: all 0.3s ease;
 }
 
-.dark-contenedor-icono{
+.dark-contenedor-icono {
     margin-right: 10px;
     font-size: 1.5rem;
     color: #fff;
     transition: all 0.3s ease;
-
- 
 }
 
-.dark-contenedor-icono:hover{
+.dark-contenedor-icono:hover {
     color: #f5e1a4;
     transition: all 0.3s ease;
     cursor: pointer;
-
 }
 
-.home-contenedor-social{
+.home-contenedor-social {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.home-contenedor-social a{
+.home-contenedor-social a {
     margin: 0 10px;
     font-size: 1.5rem;
     color: #fff;
     transition: all 0.3s ease;
 }
 
-.home-contenedor-social a:hover{
+.home-contenedor-social a:hover {
     color: #f5e1a4;
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
-
-
-
-
-
-

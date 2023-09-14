@@ -1,5 +1,5 @@
 import React from 'react'
-import {  NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './NavBar.css'
 import { BiHomeAlt2 } from 'react-icons/bi'
 import { MdOutlineWorkHistory } from 'react-icons/md'
@@ -11,7 +11,7 @@ import { motion } from 'framer-motion'
 const NavBar = () => {
   return (
     < div className='navbar'>
-      <motion.div initial={{ y:-50 }} whileHover={{ scale: 1.05 }} animate={{ y:0}} transition={{ duration: 1 }} className='navbar-flotante'>
+      <motion.div initial={{ y: -50 }} whileHover={{ scale: 1.05 }} animate={{ y: 0 }} transition={{ duration: 1 }} className='navbar-flotante'>
         <div className='navbar-contenedor'>
           <ul>
             <li>

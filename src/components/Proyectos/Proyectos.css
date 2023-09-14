@@ -80,7 +80,7 @@
 }
 
 .card-body img:hover {
-    filter:brightness(0.6) ;
+    filter: brightness(0.6);
     transform: scale(1.05);
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -91,7 +91,7 @@
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
-    -webkit-filter:brightness(0.6) ;
+    -webkit-filter: brightness(0.6);
 }
 
 .card-body p {
@@ -131,15 +131,32 @@
 }
 
 @media screen and (max-width: 768px) {
-    .contenedor-portafolio {
-        grid-template-columns: repeat(1, 1fr);
+    .portafolio-personal h2 {
+        font-size: 1.5rem;
     }
+
+    .portafolio-personal h2 span {
+        font-size: 1.5rem;
+    }
+
     .portafolio-personal p {
         font-size: 0.8rem;
     }
-    
+
     .portafolio-personal a {
-        font-size:0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .contenedor-portafolio {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .portafolio-personal p {
+        font-size: 0.8rem;
+    }
+
+    .portafolio-personal a {
+        font-size: 0.8rem;
 
     }
 }
