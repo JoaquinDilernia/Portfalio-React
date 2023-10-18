@@ -15,6 +15,10 @@
     background-color: var(--secondary-color);
 }
 
+.home-contenedor-dark {
+    background-color: var(--tertiary-color);
+}
+
 .home-contenedor-foto {
     width: 300px;
     height: 300px;
@@ -43,6 +47,9 @@
     text-align: center;
     color: var(--tertiary-color);
     margin: 15px;
+}
+.home-contenedor-texto-dark {
+    color: var(--secondary-color);
 }
 
 .home-contenedor-texto h1 {
@@ -82,7 +89,9 @@
     color: var(--tertiary-color);
     transition: all 0.3s ease;
 }
-
+.home-contenedor-iconos-dark i {
+    color: var(--secondary-color);
+}
 .home-contenedor-iconos i:hover {
     color: var(--principal-color);
     transition: all 0.3s ease;
