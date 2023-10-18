@@ -1,3 +1,11 @@
+:root{
+    --principal-color: #f5e1a4;
+    --secondary-color: #212529;
+    --tertiary-color: #fff;
+    --cuaternary-color: #000;
+}
+
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -5,7 +13,7 @@
 }
 
 .navbar-flotante {
-    background-color: #f5e1a4;
+    background-color: var(--principal-color);
     opacity: 0.9;
     height: 60px;
     display: flex;
@@ -15,7 +23,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 30% 0 30%;
-    box-shadow: 0 0 10px #f5e1a4;
+    box-shadow: 0 0 10px var(--principal-color);
     border-radius: 4rem;
     -webkit-border-radius: 4rem;
     -moz-border-radius: 4rem;
@@ -50,13 +58,13 @@
 }
 
 .link-navbar:hover {
-    color: #fff;
-    box-shadow: 0 0 10px #f5e1a4;
+    color: var(--tertiary-color);
+    box-shadow: 0 0 10px var(--principal-color);
     transition: all 0.3s ease;
 }
 
 .active {
-    color: #fff;
+    color: var(--tertiary-color);
 }
 
 @media screen and (max-width: 768px) {
