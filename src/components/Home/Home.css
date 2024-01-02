@@ -59,7 +59,9 @@
 
 .home-contenedor-texto h1 span {
     color: var(--principal-color);
+
 }
+
 
 .home-contenedor-texto h2 {
     font-size: 1.5rem;
@@ -81,6 +83,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+
+
 }
 
 .home-contenedor-iconos i {
@@ -88,14 +92,36 @@
     font-size: 2rem;
     color: var(--tertiary-color);
     transition: all 0.3s ease;
+    animation: iconos-animation 2s infinite;
+
+
 }
+
+
+@keyframes iconos-animation {
+    0% {
+        transform: scale(1);
+        color: var(--tertiary-color);
+    }
+
+    50% {
+        transform: scale(1.1);
+        color: var(--principal-color);
+        
+    }
+
+    100% {
+        transform: scale(1);
+        color: var(--tertiary-color);
+    }
+
+    
+}
+
 .home-contenedor-iconos-dark i {
     color: var(--secondary-color);
 }
-.home-contenedor-iconos i:hover {
-    color: var(--principal-color);
-    transition: all 0.3s ease;
-}
+
 
 @media screen and (max-width: 768px) {
 
